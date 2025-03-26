@@ -56,14 +56,13 @@ kafka-server-start.sh config/server.properties
 2. **Configure Application Properties**
 Modify `application.properties` located in `src/main/resources` to enable/disable specific services by setting the corresponding flag.
 
-3. **Build the Backend Services** (if modifications are made)
+3. **Build the Backend Services** 
 ```sh
 mvn clean
 mvn package -DskipTests
 ```
 
 4. **Run the Backend**
-   - You can either use the **default JAR file included in the repository** or generate your own after modifications.
 ```sh
 java -jar target/<jar-file>.jar
 ```
