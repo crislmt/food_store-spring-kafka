@@ -82,5 +82,8 @@ python food_delivery_application_frontend.py
 - [Kafka Documentation](https://kafka.apache.org/documentation/)
 - [Spring Documentation](https://docs.spring.io/spring-framework/reference/)
 
-
+## Contributors
+- Bruno Morelli
+- Cristian Lo Muto
+- Vincenzo Martelli
 
